@@ -22,3 +22,5 @@ elif secenek =='2':
     print("Cikarma : "+str(cikar(sayi1,sayi2)))
 elif secenek == '3':
     print("Carpma : "+str(carp(sayi1,sayi2)))
+elif secenek == '4':
+    print("Bolme : "+str(bol(sayi1,sayi2)))
