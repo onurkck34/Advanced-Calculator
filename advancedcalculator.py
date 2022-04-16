@@ -1,26 +1,26 @@
-def topla(sayi1,sayi2):
-    return sayi1 + sayi2
-def cikar(sayi1,sayi2):
-    return sayi1 - sayi2
-def carp(sayi1,sayi2):
-    return sayi1 * sayi2
-def bol(sayi1,sayi2):
-    return sayi1 / sayi2
+def gather(number1,number2):
+    return number1 + number2
+def interest(number1,number2):
+    return number1 - number2
+def multiply(number1,number2):
+    return number1 * number2
+def divide(number1,number2):
+    return number1 / number2
 
-print("Operasyon : ")
-print("1 : Topla  ")
-print("2 : Cikar ")
-print("3 : Carp  ")
-print("4 : Bol ")
+print("Operation : ")
+print("1 : Gather ")
+print("2 : Interest ")
+print("3 : Multiply  ")
+print("4 : Divide ")
 
-secenek = print(int(input("Operasyin Seciniz")))
-sayi1 = print(int(input("Sayi 1 Giriniz :")))
-sayi2 = print(int(input("Sayi 2 Giriniz :")))
-if secenek == '1':
-    print("Toplam : "+str(topla(sayi1,sayi2)))
-elif secenek =='2':
-    print("Cikarma : "+str(cikar(sayi1,sayi2)))
-elif secenek == '3':
-    print("Carpma : "+str(carp(sayi1,sayi2)))
-elif secenek == '4':
-    print("Bolme : "+str(bol(sayi1,sayi2)))
+choose = print(int(input("Choose Operation")))
+number1 = print(int(input("Sayi 1 Giriniz :")))
+number2 = print(int(input("Sayi 2 Giriniz :")))
+if choose == '1':
+    print("Total: "+str(gather(number1,number2)))
+elif choose  =='2':
+    print("Extraction : "+str(interest(number1,number2)))
+elif choose  == '3':
+    print("Impact: "+str(multiply(number1,number2))
+elif choose  == '4':
+    print("Divide : "+str(divide(number1,number2)))
